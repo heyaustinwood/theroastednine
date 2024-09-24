@@ -2,23 +2,46 @@
 <html lang="en">
 <head>
 
-  <title>the roasted nine - </title>
-  
-  <link rel="canonical" href="{{ canonicalUrl }}" />
+  <title>the roasted nine -- 9 holes and coffee</title>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, shrink-to-fit=no, maximum-scale=1">
   <meta name="robots" content="index, follow">
 
-  <meta name="title" content="{{ metaTitle }}">
-  <meta name="description" content="{{ metaDescription }}">
+  <meta name="title" content="the roasted nine -- 9 holes and coffee">
+  <meta name="description" content="the roasted nine: a coffee-fueled, 9 hole round of golf with the homies to kick start your day">
   <meta name="keywords" content="the roasted nine, the roasted nine golf group, coffee and nine holes, coffee friends and golf">
   
-  <meta property="og:url" content="{{ canonicalUrl }}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ metaTitle }}">
-  <meta property="og:description" content="{{ metaDescription }}">
-  <meta property="og:image" content="{{ metaOgImage }}">
+  <meta property="og:title" content="the roasted nine -- 9 holes and coffee">
+  <meta property="og:description" content="the roasted nine: a coffee-fueled, 9 hole round of golf with the homies to kick start your day">
+  <meta property="og:image" content="assets/img/the_roasted_nine-og1.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="the roasted nine - 9 holes and coffee">
+  <meta name="twitter:description" content="the roasted nine: a coffee-fueled, 9 hole round of golf with the homies to kick start your day">
+  <meta name="twitter:image" content="assets/img/the_roasted_nine-og2.png">
+
+
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+  <link rel="manifest" href="assets/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- vendor css -->
   <link href="https://fonts.cdnfonts.com/css/trocchi-3" rel="stylesheet">
@@ -31,35 +54,38 @@
 
   <header>
     <div class="container">
-      <img src="assets/img/the_roasted_nine-header-logo.png" alt="">
+      <img src="assets/img/the_roasted_nine-header-logo.png" alt="The Roasted Nine Logo">
     </div>
   </header>
 
   <main>
     <div class="container">
 
-      <p>Back in the day... people used to start their day with friends, coffee, and nothing but good vibes.</p>
-      <p>No phones, no distractions — just great company and a freshly brewed cup to kick off the day.</p>
+      <p>Back in the day... people used to start their day with friends, coffee, and good vibes.</p>
+      <p>No phones, no distractions — just the homies and a freshly brewed cup to kick off the day.</p>
       <p>Well, guess what? We're bringing back the magic (plus more).</p>
-      <p>Introducing <u>The Roasted Nine</u> — a laid-back, nine-hole round of golf with the homies, paired with the smoothest brew from <a href="#">Hooligans Coffee</a>. The perfect way to jumpstart your morning.</p>
+      <p>Introducing <u>The Roasted Nine</u> — a laid-back, nine-hole round of golf with the homies, paired with a cup of fresh brew from <a href="#">Hooligans Coffee</a>. The perfect way to jumpstart your morning.</p>
       <p>Right now, we're hosting a monthly Roasted Nine in East Gilbert, AZ.</p>
       <p>Wanna join the crew?</p>
       <p>Sign up below, and we'll hit you up for the next round.</p>
 
-      <form>
+      <form
+        action="https://formspree.io/f/xblrvbpj"
+        method="POST"
+      >
         <div class="form-group">
-          <label for="form-name">name</label>
-          <input type="text" class="form-control" id="form-name" placeholder="your name..." tabindex="0">
+          <label for="name">name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="your name..." tabindex="0">
         </div>
 
         <div class="form-group">
-          <label for="form-email">email</label>
-          <input type="email" class="form-control" id="form-email" placeholder="your email address..." tabindex="0">
+          <label for="email">email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="your email address..." tabindex="0">
         </div>
 
         <div class="form-group">
-          <label for="form-phone">phone</label>
-          <input type="text" class="form-control" id="form-phone" placeholder="your phone number..." tabindex="0">
+          <label for="phone">phone</label>
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="your phone number..." tabindex="0">
         </div>
 
         <button class="form-button" type="submit">join the crew!</button>
@@ -69,7 +95,7 @@
   </main>
 
 
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" defer></script>
 
 </body>
 </html>
