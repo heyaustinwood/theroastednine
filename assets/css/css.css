@@ -46,9 +46,10 @@ a.nostyle:hover {
 
 header {
   padding: 2rem 0 0;
+  text-align: center;
 }
 header img {
-  width: 180px;
+  height: 90px;
 }
 
 main {
